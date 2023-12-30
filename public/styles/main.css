@@ -1,0 +1,58 @@
+body {
+    background: #e8e7ea;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+      helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+  }
+  
+  main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 4.5rem;
+    position:relative;
+    bottom: 50px;
+    text-shadow: rgb(192, 190, 190) 2px 0;
+    font-family: 'Press Start 2P', cursive;;
+  }
+  h2 {
+    font-size: 3rem;
+    text-shadow: rgb(192, 190, 190) 2px 0;
+  }
+  
+  input {
+    appearance: none;
+    -webkit-appearance: none;
+    border: 0;
+    font-size: 1rem;
+    background:#9abfe6;
+    padding: 0.5rem;
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 10px;
+    height: 20px;
+  }
+  
+
+
+  input[type="submit"]  {
+    min-height: 34px;
+  }
+
+
+
+  footer {
+   
+    position: absolute;
+    bottom: 0;
+  }
+ 
